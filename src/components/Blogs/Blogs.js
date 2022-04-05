@@ -13,7 +13,7 @@ const Blogs = () => {
     return (
         <div className='blogs'>
             {
-                quesAns.map(qa => <div>
+                quesAns.map(qa => <div key={qa.id}>
                     <h3><strong>Q. </strong>{qa.ques}</h3>
                     <p><strong>Ans: </strong>{qa.ans}</p>
                 </div>)

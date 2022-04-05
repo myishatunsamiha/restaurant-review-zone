@@ -1,0 +1,9 @@
+.meal {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.meal:hover {
+    box-shadow: 5px 5px 10px black;
+}

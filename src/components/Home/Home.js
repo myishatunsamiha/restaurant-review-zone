@@ -39,7 +39,7 @@ const Home = () => {
                     <h1 style={{ color: 'purple', fontSize: 'xxx-large' }}>The Express Inn</h1>
                     <h1>Taste For Your Soul</h1>
                     <p>This place will end your search for supremely delicious food.The greenaries around the inn and we the express inn members are waiting to serve you with the excellent food for your soul.</p>
-                    <button>Visit Now</button>
+                    <CustomLink to='/about'><button>Visit Now</button></CustomLink>
                 </div>
 
                 <div className='restaurant-img'>

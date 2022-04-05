@@ -1,0 +1,45 @@
+.about {
+    margin: 30px;
+}
+
+.restaurant-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid rgba(187, 181, 181, 0.76);
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.restaurant-intro img {
+    max-height: 500px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.popular-dishes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.popular-dishes img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .popular-dishes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .popular-dishes {
+        grid-template-columns: 1fr;
+    }
+}
