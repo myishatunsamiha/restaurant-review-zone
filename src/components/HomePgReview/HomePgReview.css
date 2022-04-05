@@ -1,0 +1,29 @@
+.review-container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 15px auto;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.review-container:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.397);
+}
+
+.img-container img {
+    height: 100%;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.img-container {
+    margin-right: 15px;
+}
+
+.detail-container p,
+.detail-container strong {
+    margin: 0px;
+}

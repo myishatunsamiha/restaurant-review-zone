@@ -1,0 +1,51 @@
+[
+    {
+        "id": "624b46af55bd14d8e26ab8c8",
+        "name": "Yolanda Harvey",
+        "img": "https://media.istockphoto.com/photos/smiling-indian-man-looking-at-camera-picture-id1270067126?k=20&m=1270067126&s=612x612&w=0&h=ZMo10u07vCX6EWJbVp27c7jnnXM2z-VXLd-4maGePqc=",
+        "review": "This restaurant has a nice green ambiance and a great view. The food is really good.",
+        "rating": 5
+    },
+    {
+        "id": "624b46af55274ae84f5e3099",
+        "name": "Ball Morrison",
+        "img": "https://deathofhemingway.com/wp-content/uploads/2020/12/istockphoto-1045886560-612x612-1.jpg",
+        "review": "The service is excellent and food is very tasty. Green nature all around the restaurant.",
+        "rating": 4.5
+    },
+    {
+        "id": "624b46af9e8523cc80b163c6",
+        "name": "Faulkner Bennett",
+        "img": "https://media.istockphoto.com/photos/smiling-mixed-race-mature-man-on-grey-background-picture-id1319763895?b=1&k=20&m=1319763895&s=170667a&w=0&h=jhqKyg62cQVZ-NjDQjpcenCdHDrprkN4caRjk4K76E8=",
+        "review": "The waiters and manager are very patient and friendly. They serve delicious food and a very quick service.",
+        "rating": 5
+    },
+    {
+        "id": "624b46afb244641e8fc54594",
+        "name": "Belinda Banks",
+        "img": "https://media.istockphoto.com/photos/happy-african-american-senior-woman-standing-standing-in-kitchen-and-picture-id1342066127?b=1&k=20&m=1342066127&s=170667a&w=0&h=mZvXN3SyV5rZMRCcznwnuQoXhSLA4R6_Iq4PzCWBKto=",
+        "review": "A must view restaurant. Tasty dishes.",
+        "rating": 5
+    },
+    {
+        "id": "624b46af04620b803ee688f6",
+        "name": "Lowery Mann",
+        "img": "https://t4.ftcdn.net/jpg/03/51/56/07/360_F_351560776_sEYcaEM5PK8BxRx4GewPAYCbCmlKbBOJ.jpg",
+        "review": "Excellent food, great view and quick service.",
+        "rating": 5
+    },
+    {
+        "id": "624b46afc0b21c06bee9200b",
+        "name": "Cross Lindsey",
+        "img": "https://media.istockphoto.com/photos/portrait-of-a-handsome-black-man-picture-id1289461328?b=1&k=20&m=1289461328&s=170667a&w=0&h=SpRhSvRMO7UkXWo52mV9bf0bo6au6kC-2wsOGsQ0D2Y=",
+        "review": "The soup was excellent from this place. Other food items were moderate in taste.",
+        "rating": 4
+    },
+    {
+        "id": "624b46af90a12e09d26df664",
+        "name": "Noreen Weber",
+        "img": "https://media.istockphoto.com/photos/smiling-black-man-in-suit-posing-on-studio-background-picture-id1201144328?k=20&m=1201144328&s=612x612&w=0&h=U2DJlDOnhJNvQziVvorKPIlqygqqpNL1s_rxqlLUhDo=",
+        "review": "Close to nature, nice decoration and good food to satisfy your soul.",
+        "rating": 5
+    }
+]
