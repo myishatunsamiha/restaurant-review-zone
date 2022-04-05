@@ -31,6 +31,18 @@
     border-radius: 10px;
 }
 
+.popular-dishes button {
+    padding: 8px 30px;
+    color: black;
+    background-color: rgb(236, 150, 236);
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    border-radius: 5px;
+}
+
+.popular-dishes button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+}
+
 @media only screen and (max-width: 992px) {
     .popular-dishes {
         grid-template-columns: repeat(2, 1fr);
