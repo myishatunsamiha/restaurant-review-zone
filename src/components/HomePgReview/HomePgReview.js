@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import Rating from 'react-rating';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './HomePgReview.css';
 
 const HomePgReview = (props) => {
@@ -14,7 +17,13 @@ const HomePgReview = (props) => {
             <div className='detail-container'>
                 <p><strong>Posted By:</strong> {name}</p>
                 <p><strong>Review:</strong> {review}</p>
-                <p><strong>Rating:</strong> {rating}</p>
+                <p><strong>Rating:</strong> <Rating
+                    initialRating={rating}
+                    emptySymbol={<FontAwesomeIcon icon={faStar} />}
+                    fullSymbol={<FontAwesomeIcon style={{ color: 'goldenrod' }} icon={faStar} />}
+                    readonly
+                ></Rating></p>
+
             </div>
         </div>
     );
