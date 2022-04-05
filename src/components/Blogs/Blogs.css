@@ -1,0 +1,8 @@
+.blogs {
+    text-align: justify;
+    margin: 30px;
+}
+
+.blogs strong {
+    color: gray;
+}

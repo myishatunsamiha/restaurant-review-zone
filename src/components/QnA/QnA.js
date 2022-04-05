@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import './Blogs.css';
 
-const Blogs = () => {
+const QnA = () => {
     const [quesAns, setQuesAns] = useState([]);
 
     useEffect(() => {
@@ -11,15 +10,15 @@ const Blogs = () => {
     }, [])
 
     return (
-        <div className='blogs'>
+        <div>
             {
                 quesAns.map(qa => <div>
-                    <h3><strong>Q. </strong>{qa.ques}</h3>
-                    <p><strong>Ans: </strong>{qa.ans}</p>
+                    <p>{qa.ques}</p>
+                    <p>{qa.ans}</p>
                 </div>)
             }
         </div>
     );
 };
 
-export default Blogs;
+export default QnA;

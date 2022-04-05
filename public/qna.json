@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "ques": "What is the purpose of context api?",
+        "ans": "In react, data/props can be passed from one component to another in top-down manner (from parent to child component). If multiple components are nested, to pass props from a specific parent (on the top layer) component to a specific child component the props needs to pass through each parent components on the path (e.g. great-grand-parent->grand-parent->parent->child). This is called props drilling. To avoid this unnecessary data passing context api is used. It allows the user to pass data(in the form of value) directly from a specific parent to a child component by creating context and establishing provider and consumer relation in between two components. You need to create context in the parent component using createContext(), wrap the component you want use as provider inside context Provider, pass the value using the context Provider component and export the context api. Now import the api in the child component where you want to use the value passed by the parent component."
+    },
+    {
+        "id": 2,
+        "ques": "What is semantic tag?",
+        "ans": "Semantic tags are used to create the structure of a html document. <header>, <nav>, <section>, <article> and <footer> are few popular examples of semantic tags. It gives each section of the document meaningful and comprehensive name which makes the document easier to read for the developers and the browsers. These tags help the web-sites to be more accessible for all sorts of uses(especially for visually impaired users who use screen readers). Makes the code cleaner and readable for developers. Semantic tags helps to conveys the purpose of your web-site which eventually will boost your web-site's SEO ranking."
+    },
+    {
+        "id": 3,
+        "ques": "What are the differences between inline, block and inline-block?",
+        "ans": "1. Block elements(e.g. div, p, li, etc) start on a new line and it takes up the 100% screen-width. Inline and inline-block elements do not start on a new line. 2. Height and width properties can be applied to block and inline-block elements. Height and width can't be applied to inline elements. 3. Margin and padding can be applied to all four sides(top, bottom, left and right) of inline-block and block elements. Only margin-left and margin-right can be applied to inline elements. "
+    }
+]
